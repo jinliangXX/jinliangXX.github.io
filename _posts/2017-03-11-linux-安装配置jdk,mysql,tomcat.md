@@ -54,9 +54,10 @@ mysql57-community/x86_64          MySQL 5.7 Community Server
     7>修改默认密码(选作)。密码保存在文件'`/var/log/mysqld.log`'中，通过这个文件找到密码，然后登陆mysql，然后修改密码。找到密码的命令为'`grep 'temporary password' /var/log/mysqld.log`',然后通过'`mysql -u root -p`'登陆mysql。然后用mysql的命令修改密码。
     安装完成！
 
-  3.安装tomcat
-    1>下载tomcat。还是到官网找到下载地址，利用'wget'下载到本地。命令为'`wget http://mirrors.tuna.tsinghua.edu.cn/apache/tomcat/tomcat-8/v8.5.11/bin/apache-tomcat-8.5.11.tar.gz`'
-    2>解压安装包，删除安装包后并移动文件到指定目录。解压的命令为'`tar -zxv -f apache-tomcat-8.5.11.tar.gz`'，然后删除安装包，命令为'`rm -rf apache-tomcat-8.5.11.tar.gz`',最后移动到'/usr/local/tomcat'目录下，命令为 `mv apache-tomcat-8.5.11 /usr/local/tomcat`'。
-    3>运行tomcat。到tomcat的bin目录下,然后运行'startup.sh'，打开浏览器，输入'`http://localhost:8080/'`就可以进入tomcat的安装界面。
+####   3.安装tomcat
+
+​    1>下载tomcat。还是到官网找到下载地址，利用'wget'下载到本地。命令为'`wget http://mirrors.tuna.tsinghua.edu.cn/apache/tomcat/tomcat-8/v8.5.11/bin/apache-tomcat-8.5.11.tar.gz`'
+​    2>解压安装包，删除安装包后并移动文件到指定目录。解压的命令为'`tar -zxv -f apache-tomcat-8.5.11.tar.gz`'，然后删除安装包，命令为'`rm -rf apache-tomcat-8.5.11.tar.gz`',最后移动到'/usr/local/tomcat'目录下，命令为 `mv apache-tomcat-8.5.11 /usr/local/tomcat`'。
+​    3>运行tomcat。到tomcat的bin目录下,然后运行'startup.sh'，打开浏览器，输入'`http://localhost:8080/'`就可以进入tomcat的安装界面。
 
     java web的环境大体上配置好了，不同的系统会有些许的区别，但是主要步骤不变。
