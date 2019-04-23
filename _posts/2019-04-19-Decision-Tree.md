@@ -144,7 +144,7 @@ def chooseBestFeatureToSplit(dfdata):
 
 
 $$
-Gain_ratio(D,a)=\frac{Gain(D,a)}{IV(a)},其中 IV(a)=-\sum_{v=1}^{V}\frac{|D^v|}{|D|}\log_2\frac{|D^v|}{|D|}
+Gain\_ratio(D,a)=\frac{Gain(D,a)}{IV(a)},其中 IV(a)=-\sum_{v=1}^{V}\frac{|D^v|}{|D|}\log_2\frac{|D^v|}{|D|}
 $$
 
 
@@ -406,7 +406,7 @@ $$
 
 
 
-## 代码实现（CART改进版，取自sklearn库）
+## 10. 代码实现（CART改进版，取自sklearn库）
 
 *导入需要用到的python库*
 
