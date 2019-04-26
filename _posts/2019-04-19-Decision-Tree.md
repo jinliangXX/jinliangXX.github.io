@@ -392,11 +392,11 @@ $$
 
 以上所介绍的决策树有一个**特性**：轴平行，即分类边界由若干个与坐标轴平行的分段组成。
 
-![](https://ws2.sinaimg.cn/large/006tNc79ly1g2aqaqojqaj30j60e4mxz.jpg)
+![juece](http://jinliangxx.oss-cn-beijing.aliyuncs.com/2019-04-26-131359.png)
 
 **问题：**分类边界复杂时，决策树非常复杂，预测时间成本高。
 
-![](https://ws4.sinaimg.cn/large/006tNc79ly1g2aqbkx20sj30j60dwdhh.jpg)
+![WX20190422-003919@2x](http://jinliangxx.oss-cn-beijing.aliyuncs.com/2019-04-26-131413.png)
 
 **方案：**多变量决策树，使用斜的划分边界，简化决策树模型。
 
@@ -538,7 +538,7 @@ plt.legend()
 plt.show()
 ```
 
-![](https://ws3.sinaimg.cn/large/006tNc79ly1g2buzm3y33j30as07qgls.jpg)
+![下载 (http://jinliangxx.oss-cn-beijing.aliyuncs.com/2019-04-26-131438.png)](/Users/jinliangxu/文档/blog/img/下载 (3).png)
 
 *将测试集结果进行可视化*
 
@@ -561,6 +561,6 @@ plt.legend()
 plt.show()
 ```
 
-![](https://ws2.sinaimg.cn/large/006tNc79ly1g2bv0fcffyj30as07q3yk.jpg)
+![下载 (http://jinliangxx.oss-cn-beijing.aliyuncs.com/2019-04-26-131450.png)](/Users/jinliangxu/文档/blog/img/下载 (4).png)
 
 > 参考：西瓜书
