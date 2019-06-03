@@ -75,26 +75,24 @@
     <!--    }-->
     <!--    });-->
     {% if page.mathjax %}
-    <!-- CDN files for docsify-katex -->
-    <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
-    <!-- or <script src="//cdn.jsdelivr.net/gh/upupming/docsify-katex/dist/docsify-katex.js"></script> -->
-    <link
-            rel="stylesheet"
-            href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"
-    />
-    <!-- Put them above docsify.min.js -->
-    <script src="//cdn.jsdelivr.net/npm/docsify@latest/lib/docsify.min.js"></script>
-    <!--    <script type="text/x-mathjax-config">-->
-    <!--    MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ["\\(","\\)"]], processEscapes: true }, TeX: { equationNumbers: { autoNumber: "AMS" } }, messageStyle: "none", SVG: { blacker: 1 }});-->
+    <!--    &lt;!&ndash; CDN files for docsify-katex &ndash;&gt;-->
+    <!--    <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>-->
+    <!--    &lt;!&ndash; or <script src="//cdn.jsdelivr.net/gh/upupming/docsify-katex/dist/docsify-katex.js"></script> &ndash;&gt;-->
+    <!--    <link-->
+    <!--            rel="stylesheet"-->
+    <!--            href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"-->
+    <!--    />-->
+    <!--    &lt;!&ndash; Put them above docsify.min.js &ndash;&gt;-->
+    <!--    <script src="//cdn.jsdelivr.net/npm/docsify@latest/lib/docsify.min.js"></script>-->
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ["\\(","\\)"]], displayMath: [ ['$$','$$'], ["\\[","\\]"] ],processEscapes: true }, TeX: { equationNumbers: { autoNumber: "AMS" } }, messageStyle: "none", SVG: { blacker: 1 }});
+    </script>
+    <script src="https://www.zybuluo.com/static/editor/libs/mathJax.js"></script>
+    <!--mathjax source code is here: https://github.com/mathjax/MathJax.-->
+    <script src="https://www.zybuluo.com/static/MathJax/MathJax.js?config=TeX-AMS-MML_SVG"></script>
 
-
-    <!--    </script>-->
-    <!--    <script src="https://www.zybuluo.com/static/editor/libs/mathJax.js"></script>-->
-    <!--    &lt;!&ndash;mathjax source code is here: https://github.com/mathjax/MathJax.&ndash;&gt;-->
-    <!--    <script src="https://www.zybuluo.com/static/MathJax/MathJax.js?config=TeX-AMS-MML_SVG"></script>-->
-
-    <!--    <script type="text/javascript"-->
-    <!--            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">-->
-    <!--    </script>-->
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
     {% endif %}
 </head>
