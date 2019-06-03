@@ -75,15 +75,6 @@
     <!--    }-->
     <!--    });-->
     {% if page.mathjax %}
-    <!--    &lt;!&ndash; CDN files for docsify-katex &ndash;&gt;-->
-    <!--    <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>-->
-    <!--    &lt;!&ndash; or <script src="//cdn.jsdelivr.net/gh/upupming/docsify-katex/dist/docsify-katex.js"></script> &ndash;&gt;-->
-    <!--    <link-->
-    <!--            rel="stylesheet"-->
-    <!--            href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"-->
-    <!--    />-->
-    <!--    &lt;!&ndash; Put them above docsify.min.js &ndash;&gt;-->
-    <!--    <script src="//cdn.jsdelivr.net/npm/docsify@latest/lib/docsify.min.js"></script>-->
     <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
     showProcessingMessages: false,
@@ -103,6 +94,7 @@
 });
 MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
 
+
     </script>
     <script src="https://www.zybuluo.com/static/editor/libs/mathJax.js"></script>
     <!--mathjax source code is here: https://github.com/mathjax/MathJax.-->
@@ -111,8 +103,6 @@ MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
     <script type="text/javascript"
             src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
     </script>
-    //
-    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 
     {% endif %}
 </head>
