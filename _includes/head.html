@@ -67,17 +67,22 @@
     <!-- ga & ba script hoook -->
 
     <script></script>
-<!--    MathJax.Hub.Config({-->
-<!--    tex2jax: { inlineMath: [["$","$"],["\\(","\\)"]],-->
-<!--               displayMath: [ ['$$','$$'], ["\\[","\\]"] ],},-->
-<!--    "HTML-CSS": {-->
-<!--      linebreaks: { automatic: true }-->
-<!--    }-->
-<!--    });-->
+    <!--    MathJax.Hub.Config({-->
+    <!--    tex2jax: { inlineMath: [["$","$"],["\\(","\\)"]],-->
+    <!--               displayMath: [ ['$$','$$'], ["\\[","\\]"] ],},-->
+    <!--    "HTML-CSS": {-->
+    <!--      linebreaks: { automatic: true }-->
+    <!--    }-->
+    <!--    });-->
     {% if page.mathjax %}
     <script type="text/x-mathjax-config">
     MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ["\\(","\\)"]], processEscapes: true }, TeX: { equationNumbers: { autoNumber: "AMS" } }, messageStyle: "none", SVG: { blacker: 1 }});
+
     </script>
+    <script src="https://www.zybuluo.com/static/editor/libs/mathJax.js"></script>
+    <!--mathjax source code is here: https://github.com/mathjax/MathJax.-->
+    <script src="https://www.zybuluo.com/static/MathJax/MathJax.js?config=TeX-AMS-MML_SVG"></script>
+
     <script type="text/javascript"
             src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
     </script>
