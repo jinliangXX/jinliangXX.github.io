@@ -8,7 +8,7 @@ header-img: img/post-bg-diqiu.jpeg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
 mathjax: true                       #是否显示公式
 tags:                               #标签
-    - k8s
+    - K8s
 ---
 
 ## 1. 安装kubectl
